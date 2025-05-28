@@ -1,0 +1,87 @@
+*{
+    margin: 5px 20px 0 20px;
+    padding: 0px;
+    align-items: center;
+  }
+
+  
+  .home{
+    display: flex;
+    justify-content: space-between;
+  }
+  header{
+    text-decoration: none;
+  }
+  .navbar ul li{
+    list-style:none;
+    margin: 10px;
+    display: inline;
+    color: gray;
+  }
+   img{
+    width: 70%;
+    margin-left: 40px;
+  }
+  .bright{
+    color: rgb(2, 2, 63);
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 5px;
+  }
+  .future{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 200px;
+    padding-top: 20px;
+  }
+  .promise{
+  color: gray;
+  margin-top: 0px;
+  }
+  button{
+    background-color: rgba(231, 74, 17, 0.856);
+    color: rgb(2, 2, 63);
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    width: 170px;
+    height: 40px;
+    cursor: pointer;
+  }
+   .together{
+    background-color: rgb(2, 2, 63);
+    width: 450px;
+    height: 400px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    font-size: 20px;
+  } 
+  h3{
+    color: orange;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .h4{
+    font-weight: bold;
+  }
+  
+  .will{
+    font-size: 11px;
+    
+  }
+  br{
+    text-decoration-line: overline;
+  }
+  .forever{
+    display: inline-flex; 
+  }
+  .group{ 
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+  }
+  .grow{
+    color: gray;
+  }

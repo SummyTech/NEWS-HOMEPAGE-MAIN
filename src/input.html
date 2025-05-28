@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NEWS-HOMEPAGE-MAIN-PROJECT</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#fffdfa] text-[#00001a] font-sans">
+
+  <div class="max-w-6xl mx-auto p-6">
+    <!-- Header -->
+    <header class="flex justify-between items-center mb-8">
+     <img src="../news-homepage-main/assets/images/logo.svg" alt="">
+      <nav class="space-x-6 text-gray-600 hidden md:flex">
+        <a href="#" class="hover:text-red-500">Home</a>
+        <a href="#" class="hover:text-red-500">New</a>
+        <a href="#" class="hover:text-red-500">Popular</a>
+        <a href="#" class="hover:text-red-500">Trending</a>
+        <a href="#" class="hover:text-red-500">Categories</a>
+      </nav>
+    </header>
+
+    <!-- Main Section -->
+    <div class="grid md:grid-cols-3 gap-6">
+      <!-- Left Main Content -->
+      <div class="md:col-span-2 space-y-6">
+        <img src="../news-homepage-main/assets/images/image-web-3-desktop.jpg" alt="Web 3.0" class="w-full rounded" />
+        <div class="grid md:grid-cols-2 gap-4">
+          <h1 class="text-5xl font-extrabold leading-tight">The Bright <br>Future of Web <br>3.0?</h1>
+          <div class="flex flex-col justify-between">
+            <p class="text-gray-600 mb-4">
+              We dive into the next evolution of the web that <br>claims to put the power of the platforms back <br>into the hands of the people. But is it really <br>fulfilling its promise?
+            </p>
+            <button class="bg-red-500 text-white px-6 py-2 uppercase tracking-widest text-sm hover:bg-[#00001a] transition w-fit">
+              Read More
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <aside class="bg-[#00001a] text-white p-6">
+        <h2 class="text-yellow-400 text-3xl font-bold mb-6">New</h2>
+        <div class="border-b border-gray-700 pb-4 mb-4">
+          <h3 class="font-bold mb-1">Hydrogen VS Electric Cars</h3>
+          <p class="text-sm text-gray-400">Will hydrogen-fueled cars ever catch up to <br>EVs?</p>
+        </div>
+        <div class="border-b border-gray-700 pb-4 mb-4">
+          <h3 class="font-bold text-white hover:text-yellow-400 cursor-pointer mb-1">The Downsides of AI Artistry</h3>
+          <p class="text-sm text-gray-400">What are the possible adverse effects of <br>on-demand AI image generation?</p>
+        </div>
+        <div>
+          <h3 class="font-bold mb-1">Is VC Funding Drying Up?</h3>
+          <p class="text-sm text-gray-400">Private funding by VC firms is down 50% <br>YOY. We take a look at what that means.</p>
+        </div>
+      </aside>
+    </div>
+
+    <!-- Bottom Section -->
+    <div class="grid md:grid-cols-3 gap-6 mt-12">
+      <!-- Article 1 -->
+      <div class="flex gap-4">
+        <img src="../news-homepage-main/assets/images/image-retro-pcs.jpg" alt="Retro PCs" class="w-24 h-27 object-cover " />
+        <div>
+          <h2 class="text-3xl text-red-500 font-bold">01</h2>
+          <h3 class="font-bold mb-1 hover:text-red-500 cursor-pointer">Reviving Retro PCs</h3>
+          <p class="text-gray-600 text-sm">What happens when old PCs <br>are given modern upgrades?</p>
+        </div>
+      </div>
+
+      <!-- Article 2 -->
+      <div class="flex gap-4">
+        <img src="../news-homepage-main/assets/images/image-top-laptops.jpg" alt="Laptops 2022" class="w-24 h-27 object-cover" />
+        <div>
+          <h2 class="text-3xl text-red-500 font-bold">02</h2>
+          <h3 class="font-bold mb-1 text-[#00001a] hover:text-red-500 cursor-pointer">Top 10 Laptops of 2022</h3>
+          <p class="text-gray-600 text-sm">Our best picks for various <br>needs and budgets.</p>
+        </div>
+      </div>
+
+      <!-- Article 3 -->
+      <div class="flex gap-4">
+        <img src="../news-homepage-main/assets/images/image-gaming-growth.jpg" alt="Gaming" class="w-24 h-27 object-cover" />
+        <div>
+          <h2 class="text-3xl text-red-500 font-bold">03</h2>
+          <h3 class="font-bold mb-1 hover:text-red-500 cursor-pointer">The Growth of Gaming</h3>
+          <p class="text-gray-600 text-sm">How the pandemic has <br>sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
